@@ -15,3 +15,7 @@ bool PaperGarbage::squeeze()
 	isSqueezed = true;
 	return isSqueezed;
 }
+
+bool PaperGarbage::getIsSqueezed() {
+	return isSqueezed;
+}

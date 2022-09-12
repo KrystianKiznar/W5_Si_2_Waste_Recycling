@@ -7,10 +7,11 @@ using namespace std;
 
 class PaperGarbage:public Garbage
 {private:
-	bool isSqueezed;
+	bool isSqueezed = false;
 
 public:
 	PaperGarbage(string = "some paper trash", bool=false);
 	bool squeeze();
+	bool getIsSqueezed();
 };
 

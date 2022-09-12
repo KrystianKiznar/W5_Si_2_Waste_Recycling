@@ -30,6 +30,12 @@
     <ClCompile Include="Dustbin.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Dustbin9000.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MetalGarbage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Garbage.h">
@@ -44,5 +50,14 @@
     <ClInclude Include="Dustbin.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Dustbin9000.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MetalGarbage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
 </Project>

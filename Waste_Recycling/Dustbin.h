@@ -20,6 +20,7 @@ public:
 	void throwOutGarbage(Garbage Garbage);
 	void throwOutPaperGarbage(PaperGarbage PaperGarbage);
 	void throwOutPlasticGarbage(PlasticGarbage PlasticGarbage);
+	void emptyContents();
 
 };
 

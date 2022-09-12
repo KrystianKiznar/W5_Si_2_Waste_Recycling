@@ -14,3 +14,8 @@ bool PlasticGarbage::clean()
 	isClean = true;
 	return isClean;
 }
+
+bool PlasticGarbage::getIsClean()
+{
+	return isClean;
+}

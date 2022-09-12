@@ -3,7 +3,7 @@
 #include <string>
 #include "PaperGarbage.h"
 #include "Dustbin.h"
-#include "Dustbin.cpp"
+
 
 void showGarbagecontents(vector <string> container) {
 	for (int i = 0; i < container.size(); i++)

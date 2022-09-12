@@ -128,16 +128,23 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Dustbin.cpp" />
+    <ClCompile Include="Dustbin9000.cpp" />
     <ClCompile Include="Garbage.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MetalGarbage.cpp" />
     <ClCompile Include="PaperGarbage.cpp" />
     <ClCompile Include="PlasticGarbage.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Dustbin.h" />
+    <ClInclude Include="Dustbin9000.h" />
     <ClInclude Include="Garbage.h" />
+    <ClInclude Include="MetalGarbage.h" />
     <ClInclude Include="PaperGarbage.h" />
     <ClInclude Include="PlasticGarbage.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

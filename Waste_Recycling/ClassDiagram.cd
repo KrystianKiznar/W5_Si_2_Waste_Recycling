@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Dustbin" Collapsed="true">
+    <Position X="5.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACACIAAAACQAgAAAAAAAAAAAAAACAAAAEAAAAAAA=</HashCode>
+      <FileName>Dustbin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Garbage" Collapsed="true">
+    <Position X="1.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAABAAAAEAAAAAAA=</HashCode>
+      <FileName>Garbage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PaperGarbage" Collapsed="true">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAIAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PaperGarbage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlasticGarbage" Collapsed="true">
+    <Position X="2.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAABIAAAAAAA=</HashCode>
+      <FileName>PlasticGarbage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -14,11 +14,23 @@ void Dustbin::throwOutGarbage(Garbage Garbage)
 
 void Dustbin::throwOutPaperGarbage(PaperGarbage PaperGarbage)
 {
-	paperContent.push_back(PaperGarbage);
+	if (PaperGarbage.getIsSqueezed() == false)
+		cout << "DustbinContentError";
+	else
+		paperContent.push_back(PaperGarbage);
 }
 
 void Dustbin::throwOutPlasticGarbage(PlasticGarbage PlasticGarbage)
 {
-	Dustbin::plasticContent.push_back(PlasticGarbage);
+	if (PlasticGarbage.getIsClean() == false) {
+		cout << "DustbinContentError";
+	}
+	else
+		plasticContent.push_back(PlasticGarbage);
 }
 
+void Dustbin::emptyContents() {
+	paperContent.clear();
+	plasticContent.clear();
+	houseWasteContent.clear();
+}

@@ -11,4 +11,7 @@ private:
 public:
 	PlasticGarbage(string = "some plastic trash", bool = false);
 	bool clean();
+
+	bool getIsClean();
+
 };
